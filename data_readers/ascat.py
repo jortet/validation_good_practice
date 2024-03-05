@@ -4,7 +4,7 @@ import pandas as pd
 
 from netCDF4 import Dataset, num2date
 
-from validation_good_practice.ancillary.paths import Paths
+from ancillary.paths import Paths
 
 class HSAF_io(object):
     """

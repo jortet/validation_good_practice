@@ -1,10 +1,10 @@
 
 import numpy as np
 import pandas as pd
-import xarray as xr
-
-from scipy.stats import pearsonr, norm, t, chi
 import scipy.optimize as optimization
+import xarray as xr
+from scipy.stats import pearsonr, norm, t, chi
+
 
 def estimate_tau(in_df, n_lags=90):
     """

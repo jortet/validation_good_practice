@@ -15,8 +15,8 @@ from mpl_toolkits.basemap import Basemap
 
 from itertools import combinations
 
-from validation_good_practice.ancillary.grid import EASE2
-from validation_good_practice.ancillary.paths import Paths
+from ancillary.grid import EASE2
+from ancillary.paths import Paths
 
 
 def boxplot_tca_ismn(path, sensors):

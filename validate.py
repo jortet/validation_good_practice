@@ -9,9 +9,9 @@ from multiprocessing import Pool
 
 from itertools import combinations, repeat
 
-from validation_good_practice.data_readers.interface import reader
-from validation_good_practice.ancillary.metrics import bias, ubRMSD, Pearson_R, TCA, correct_n
-from validation_good_practice.ancillary.paths import Paths
+from data_readers.interface import reader
+from ancillary.metrics import bias, ubRMSD, Pearson_R, TCA, correct_n
+from ancillary.paths import Paths
 
 
 def run():

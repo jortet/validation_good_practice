@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import xarray as xr
 
-from validation_good_practice.ancillary.paths import Paths
+from ancillary.paths import Paths
 
 def resample_merra2(part=1, parts=1):
     """

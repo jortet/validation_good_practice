@@ -1,12 +1,10 @@
 
-import pyproj
-
 import numpy as np
 import pandas as pd
-
+import pyproj
 from netCDF4 import Dataset
+from ancillary.paths import Paths
 
-from validation_good_practice.ancillary.paths import Paths
 
 class EASE2(object):
     """

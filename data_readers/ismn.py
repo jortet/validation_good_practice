@@ -4,8 +4,8 @@ import pandas as pd
 
 from ismn.interface import ISMN_Interface
 
-from validation_good_practice.ancillary.grid import EASE2
-from validation_good_practice.ancillary.paths import Paths
+from ancillary.grid import EASE2
+from ancillary.paths import Paths
 
 def generate_station_list():
     """ This routine generates a list of available ISMN stations and the EASEv2 grid point they are located in. """

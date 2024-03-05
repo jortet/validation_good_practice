@@ -1,12 +1,9 @@
-
-import os
-
 import numpy as np
 import pandas as pd
 
 from netCDF4 import Dataset
 
-from validation_good_practice.ancillary.paths import Paths
+from ancillary.paths import Paths
 
 def resample_smos():
     """

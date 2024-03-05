@@ -4,7 +4,7 @@ import pandas as pd
 
 from pytesmo.temporal_matching import df_match
 
-from validation_good_practice.ancillary.paths import Paths
+from ancillary.paths import Paths
 
 class reader():
     """
